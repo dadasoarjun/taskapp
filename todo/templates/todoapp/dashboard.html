@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo | Dashboard</title>
+</head>
+<body>
+        <h1>Todo Dashboard</h1>
+        <p>
+            <button><a href="/add_task" target="_blank">Add task</a></button> 
+            <button><a href="/authapp/logout">logout</a></button>   
+        </p>
+        {{a}} <br>
+        Hi,{{user}} <br>
+
+        {% if a > b %}
+            <p>In if block</p>
+            {{a}} is greater
+        {% else %}  
+            <p>In else block</p>
+            {{b}} is greater
+        {% endif %}  
+        
+        <hr>
+        <p>Loop Control Instruction</p>
+
+        {% for x in l %}   <!----x in [10,20,30,......]-->
+            {{x}} <br>
+        {% endfor %}    
+
+
+
+</body>
+</html>
